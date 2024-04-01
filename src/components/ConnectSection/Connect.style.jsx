@@ -55,4 +55,7 @@ export const Copy = styled.span`
     font-size: 2rem;
     position: absolute;
     bottom: 1.5rem;
+    @media(max-width: 580px){
+        font-size: 1.5rem;
+    }
 `

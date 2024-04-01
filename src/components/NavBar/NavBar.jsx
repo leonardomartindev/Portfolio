@@ -10,6 +10,9 @@ export default function NavBar() {
     const handleMenu = () =>{
         setMenuActive(!menuActive)
     }
+    const handleClose = () =>{
+        setMenuActive(false)
+    }
 
     return (
         <Nav menuactive={menuActive}>
@@ -39,7 +42,7 @@ export default function NavBar() {
                     </a>
                 </SocialContainer>
             </UlItems>
-            <Link onClick={handleMenu} activeClass="active" smooth soy to="top" offset={-300}>
+            <Link onClick={handleClose} activeClass="active" smooth soy to="top" offset={-300}>
                 <TopBtn/>
             </Link>
         </Nav>
