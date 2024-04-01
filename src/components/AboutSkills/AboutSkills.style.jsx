@@ -20,6 +20,7 @@ export const SectionContainer = styled.section`
     };
     @media(max-width: 610px){
         justify-items:start;
+        gap: 12rem
     };
 }
 `
