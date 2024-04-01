@@ -16,16 +16,16 @@ export default function NavBar() {
             <MenuBurguer onClick={handleMenu}/>
             <UlItems>
                 <LiItems> 
-                    <Link activeClass="active" smooth soy to="top" offset={-300}>Início</Link>
+                    <Link onClick={handleMenu} activeClass="active" smooth soy to="top" offset={-300}>Início</Link>
                 </LiItems>
                 <LiItems> 
-                    <Link activeClass="active" smooth soy to="skills"  offset={-75}>Skills</Link>
+                    <Link onClick={handleMenu} activeClass="active" smooth soy to="skills"  offset={-75}>Skills</Link>
                 </LiItems>
                 <LiItems> 
-                    <Link activeClass="active" smooth soy to="projects" offset={-75}>Projetos</Link>
+                    <Link onClick={handleMenu} activeClass="active" smooth soy to="projects" offset={-75}>Projetos</Link>
                 </LiItems>
                 <LiItems> 
-                    <Link activeClass="active" smooth soy to="contact" offset={-75}>Contato</Link>
+                    <Link onClick={handleMenu} activeClass="active" smooth soy to="contact" offset={-75}>Contato</Link>
                 </LiItems>
                 <SocialContainer>
                     <Linkedin/>
