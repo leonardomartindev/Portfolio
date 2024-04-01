@@ -17,6 +17,9 @@ export const CardContainer = styled.div`
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
     }
+    @media(max-width: 580px){
+        grid-template-rows: 1fr 2fr;
+    }
 `
 export const CardImage = styled.div`
     position: relative;
