@@ -41,8 +41,8 @@ export const LeoPicture = styled.div`
         height: 25rem;
     }
     @media(max-width: 580px){
-        width: 35rem;
-        height: 35rem;
+        width: 30rem;
+        height: 30rem;
     }
 `
 export const InfoContainer = styled.div`
@@ -67,7 +67,7 @@ export const NomeTitle = styled.h1`
         font-size: 3.5rem;
     }
     @media(max-width: 580px){
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
 `
 export const DeveloperTitle = styled.h2`
