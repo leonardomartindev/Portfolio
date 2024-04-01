@@ -4,6 +4,17 @@ import { IoMdMenu } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { RiWhatsappFill } from "react-icons/ri";
+import { FaCircleArrowUp } from "react-icons/fa6";
+
+export const TopBtn = styled(FaCircleArrowUp)`
+  position: fixed;
+  bottom: 2.5rem;
+  right: 3rem;
+  z-index: 1;
+  color: ${theme.colors.primary_color};
+  font-size: 4rem;
+  cursor: pointer;
+`
 
 export const Linkedin = styled(FaLinkedin)``
 export const GitHub = styled(FaGithub)``
@@ -23,6 +34,7 @@ export const MenuBurguer = styled(IoMdMenu)`
     position:fixed;
     top: 1.5rem;
     right: 2rem;
+    z-index: 2;
     font-size: 4rem;
     cursor: pointer;
     display:none;
